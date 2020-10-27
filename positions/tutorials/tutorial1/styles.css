@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+div:nth-of-type(4) {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+div:nth-of-type(3) {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+
+div:nth-of-type(2) {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+div:nth-of-type(1) {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+

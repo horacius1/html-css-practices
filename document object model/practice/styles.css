@@ -1,0 +1,16 @@
+
+
+img {
+    width: 300px;
+    display: inline-block;
+}
+
+#body {
+    
+    margin: 10px;
+}
+#block{
+    border : solid red;
+   
+    margin :20px;
+}
