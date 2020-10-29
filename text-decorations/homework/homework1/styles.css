@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400&display=swap');
+body{
+    text-transform: capitalize;
+}
+.mainbox{
+    height: 2500px;
+    width: 1173px;
+    
+    margin-left:100px;
+    margin-top: 100px;
+    margin-bottom: 600px;
+     display:flex;
+    
+     flex-direction: column;
+     
+}
+
+#smol{
+    font-size: 23px;
+    font-family:  sans-serif;
+    
+}
+#left{
+    font-size: small;
+    color:grey;
+    font-family:  sans-serif;
+   
+    
+
+    
+    
+
+}
+.flexbox{
+    display: flex;
+    justify-content:space-between ;
+    width: inherit;
+    height: 39px;
+
+}
+.flexbox-1{
+    width:100%;
+    height: 204px;
+    border:1px solid grey;
+    margin-top: 42px;
+    display: flex;
+    position: relative;
+    
+    
+   
+    
+    
+}
+.pic{
+    width: 70px;
+    height: 70px;
+    background-color:#a1b1bc;
+    border:white 4px solid;
+    border-radius: 3px;
+    box-shadow: black  2px 2px 12px;   
+    margin-top : 34px;
+    margin-bottom: 54px;
+    margin-left: 34px;
+    flex-wrap: wrap;
+    position: relative;
+    
+
+
+}
+.comment{
+    font-size: 12px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 5px;
+    width: 1003px;
+    height: 106px;
+    color:gray
+}
+.jhon{
+   margin-left: 35px;
+}
+.reply{
+    position: relative;
+    top:10px;
+    left:94%;
+    background-color: #2C3E50;
+    font-size: 15px;
+    color :white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    
+
+}
+.heading{
+    font-size: 25px;
+    font-family:  sans-serif;
+    margin-top: auto;
+}
+.time{
+    font-family: sans-serif;
+    color:gray
+}
+
+#grey {
+    background-color: gray !important;
+}
+
+#move {
+   margin-left: 30px;
+  
+   
+
+}
+h1 {
+    font-family:  sans-serif;
+    font-weight: lighter;  
+}
+
+
+#footer {
+    width: 1172px;
+    height: 521px;
+    display: flex;
+   
+    
+    
+}
+textarea{
+   background-color:rgb(235, 233, 233);
+   margin-top: 20px;
+}
+
+
+    
+    
+
+    
+
+#text-1 {
+    background-color: rgb(235, 233, 233);
+    height: 50px;
+    width:370px;
+    
+}
+#text-2 {
+    height: 50px;
+    width:370px;
+    
+    margin-left:15px
+}
+#text-3 {height: 50px;
+    width:370px;
+    
+    background-color: rgb(235, 233, 233);
+    margin-left:15px
+}
+
+#submit{
+    width: 190x;
+    height: 50px;
+    background-color: #2C3E50;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 10px;
+}
+input::placeholder {
+    padding-left: 18px;
+    font-size: 14;
+    font-family: sans-serif;
+    }
