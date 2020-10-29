@@ -1,0 +1,31 @@
+
+
+body {
+    width: 100vw;
+    z-index: -1;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 120) 100%), url(assets/Image\ 1.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(20, 130, 205, 0.07);
+}
+
+img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
