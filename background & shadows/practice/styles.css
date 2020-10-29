@@ -1,0 +1,19 @@
+html{
+    background-image: url('Image-1.png');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.mainconst{
+    background-image: radial-gradient(grey 20% , black 50%);
+    
+}
+span {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px, white;
+
+}
+
+

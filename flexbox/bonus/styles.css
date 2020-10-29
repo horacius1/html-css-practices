@@ -1,0 +1,61 @@
+
+#flexbox{
+width: 500px;
+height: 500px;
+border: 5px solid black;
+display: flex
+}
+.rectangle {
+    height: 130px;
+    width: 46px;
+    border: 1px solid black;
+}
+.square {
+    height: 40px;
+    width : 46px;
+    border: 1px solid black;
+}
+.short-rectangle{
+    height: 88px;
+    width: 46px;
+    border: 1px solid black;
+}
+.float{
+    display:flex;
+}
+
+/* .larger-rectangles {
+    width : 140px;
+    height: 103px ;
+    
+    border: 1px solid black;
+
+
+}
+.large-rectangle{
+    width:140px ;
+    height:51px ;
+    border: 1px solid black;
+} */
+.short-rectangleH{
+    height: 40px;
+    width: 88px;
+    border: 1px solid black;
+
+}
+.large-rectangle{
+    width: 46px;
+    height: 170px ;
+    border: 1px solid black;
+}
+.ending{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.larger-rectangles {
+    width : 80px;
+    height: 140px;
+    
+    border: 1px solid black;}
