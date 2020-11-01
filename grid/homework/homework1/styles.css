@@ -1,0 +1,52 @@
+.border-top {
+    border-top: 10px solid black;
+    }
+    
+    .border-bottom {
+    border-bottom: 8px solid black;
+    }
+    
+    .border-right {
+    border-right: 5px solid black;
+    }
+    
+    .border-left {
+    border-left: 5px solid black;
+    }
+    
+
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1.2fr 1fr;
+    grid-template-rows: 2.5fr 1.5fr 2fr 0.3fr;
+    width: 600px;
+    height: 600px;
+}
+
+
+.square {
+    grid-column: span 2;
+}
+
+.narr {
+    grid-row: span 2;
+}
+
+.border-top {
+    border-top: 10px solid black;
+    }
+    
+    .border-bottom {
+    border-bottom: 8px solid black;
+    }
+    
+    .border-right {
+    border-right: 5px solid black;
+    }
+    
+    .border-left {
+    border-left: 5px solid black;
+    }
+    
+
