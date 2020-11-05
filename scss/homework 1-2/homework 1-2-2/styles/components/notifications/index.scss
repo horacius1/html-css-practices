@@ -1,0 +1,237 @@
+@mixin logo ($background-color, $area-color){
+    background-color: $background-color;
+    border: 7px solid $area-color ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+      align-items: center;
+      justify-content: center;    
+}
+
+   
+    
+
+
+@mixin text ($weight-picker ,$font-color ,$font-size) {
+    font-family: 'Lato', sans-serif;
+    font-weight:$weight-picker ;
+    color: $font-color;
+    font-size: $font-size;
+    line-height:24px;
+}
+
+.box
+{
+    margin-top: 16px;
+    border:1px $border-color solid;
+    border-radius: 10px;
+    width: 570px;
+    height: 150px;
+    display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      
+      
+      position: relative;
+      
+}
+
+
+
+.alert1
+{
+    background-color: $orange;
+   
+   @extend .box;
+      
+    .x{
+        position: absolute;
+        right: 18px;
+        top: 2px;
+        color: $x-color;
+     }
+    .logo 
+    {
+       @include logo($orange ,$dark-orange);
+       
+      #mark
+      {
+          color: $ologo-col;
+          font-size: 24px;
+
+      }
+        
+    }
+    .header
+    {
+        @include text(900,$header-color ,16px)
+    }
+    .main-text
+    {
+        @include text(400, $text-color, 14px)
+    }
+}
+
+
+
+
+.alert2
+{
+    background-color: $green;
+   
+   @extend .box;
+      
+    .x{
+        position: absolute;
+        right: 18px;
+        top: 2px;
+        color: $x-color;
+     }
+    .logo 
+    {
+       @include logo($green ,$dark-green);
+       
+      #mark
+      {
+          color: $glogo-col;
+          font-size: 24px;
+
+      }
+        
+    }
+    .header
+    {
+        @include text(900,$header-color ,16px)
+    }
+    .main-text
+    {
+        @include text(400, $text-color, 14px)
+    }
+}
+
+
+
+
+.alert3
+{
+    background-color: $red;
+   @extend .box;
+      
+    .x{
+        position: absolute;
+        right: 18px;
+        top: 2px;
+        color: $x-color;
+     }
+    .logo 
+    {
+       @include logo($red ,$dark-red);
+       
+      #mark
+      {
+          color: $rlogo-col;
+          font-size: 24px;
+
+      }
+        
+    }
+    .header
+    {
+        @include text(900,$header-color ,16px)
+    }
+    .main-text
+    {
+        @include text(400, $text-color, 14px)
+    }
+}
+
+
+
+
+.alert4
+{
+    background-color: $blue;
+    
+   @extend .box;
+      
+    .x{
+        position: absolute;
+        right: 18px;
+        top: 2px;
+        color: $x-color;
+     }
+    .logo 
+    {
+       @include logo($blue ,$dark-blue);
+       
+      #mark
+      {
+          color: $blogo-col;
+          font-size: 24px;
+
+      }
+        
+    }
+    .header
+    {
+        @include text(900,$header-color ,16px)
+    }
+    .main-text
+    {
+        @include text(400, $text-color, 14px)
+    }
+}
+
+
+
+
+.alert5
+{
+    background-color: $purple;
+   @extend .box;
+      
+    .x{
+        position: absolute;
+        right: 18px;
+        top: 2px;
+        color: $x-color;
+     }
+    .logo 
+    {
+       @include logo($purple ,$dark-purple);
+       
+      #mark
+      {
+          color: $plogo-col;
+          font-size: 24px;
+
+      }
+        
+    }
+    .header
+    {
+        @include text(900,$header-color ,16px)
+    }
+    .main-text
+    {
+        @include text(400, $text-color, 14px)
+    }
+    width: 1170px;
+    grid-column: span 2;
+   
+}
+
+
+
+
+.header
+{
+    font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 30px;
+line-height: 26px;
+text-align: left;
+color: #2c3e50;
+
+}

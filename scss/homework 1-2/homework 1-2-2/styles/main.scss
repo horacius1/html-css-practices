@@ -1,0 +1,26 @@
+@import '_reset.scss';
+@import '_base.scss';
+@import '_palette.scss';
+@import 'components/notifications/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+$Width:570px;
+$Height:150px;
+
+body{
+    padding-left:374px ;
+    padding-right: 374px;
+    padding-top: 91px;
+    padding-bottom: 355px;
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: $Width $Width;
+    grid-row: $Height $Height $Height;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
